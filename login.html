@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+</head>
+
+<body>
+    <div class="back">
+        <img src="logo.png" alt="">
+        <div class="text_field">
+            <span>
+                Login
+            </span>
+        </div>
+
+        <div class="text_field">
+            <input type="text" placeholder="Name" required="">
+            <label for=""></label>
+        </div>
+        <div class="text_field">
+            <input type="tell" placeholder="Phone" required="">
+            <label for=""></label>
+        </div>
+        <div class="text_field">
+            <input type="email" placeholder="Email" required="">
+            <label for=""></label>
+        </div>
+        <div class="text_field">
+            <input type="password" placeholder="Password" required="">
+            <label for=""></label>
+        </div>
+        <div class="remember_me">
+            <input type="checkbox">Remember me
+        </div>
+        <div class="forget_password">Forgot Password ?</div>
+
+        <a href="http://www.karmadevelopers.me/"><input type="submit" value="Submit" class="submit"></a>
+        <a href="index.html" class="cancel">
+            <p>Cancel</p>
+        </a>
+    </div>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background: linear-gradient(12deg, rgb(172, 114, 125), rgba(10, 182, 182, 0.667));
+        }
+        
+        .back {
+            width: 250px;
+            height: 80vh;
+            background: white;
+            padding: 40px;
+            border-radius: 30px;
+            box-shadow: 30px 20px 10px black;
+        }
+        
+        img {
+            margin-left: 70px;
+        }
+        
+        .text_field {
+            padding: 10px;
+        }
+        
+        .text_field input {
+            width: 210px;
+            height: 25px;
+            padding-left: 10px;
+        }
+        
+        .text_field span {
+            font-size: 25px;
+            font-weight: 500;
+            margin-left: 80px;
+        }
+        
+        .remember_me {
+            padding: 2px;
+            margin-top: 10px;
+            font-size: 13px;
+        }
+        
+        .forget_password {
+            padding: 2px;
+            margin-top: 10px;
+            font-size: 12px;
+        }
+        
+        .submit {
+            width: 200px;
+            margin: 20px;
+            background: black;
+            color: white;
+            height: 40px;
+            border-radius: 30px;
+            border: none;
+            transition: .6s;
+            font-size: 14px;
+            font-weight: 600;
+            letter-spacing: 0.5px;
+        }
+        
+        .submit:hover {
+            background-color: gray;
+            color: black;
+        }
+        
+        .cancel {
+            text-decoration: none;
+            font-size: 13px;
+            color: rgb(123, 25, 48);
+            font-weight: 600;
+        }
+    </style>
+</body>
+
+</html>
